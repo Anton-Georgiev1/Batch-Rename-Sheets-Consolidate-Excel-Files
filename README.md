@@ -1,10 +1,10 @@
-## Batch_Rename_Sheets_&_Consolidate_Excel_Files
+## Batch_Rename_Sheets_Consolidate_Excel_Files
 
 **The Problem**
 Managing data across dozens of Excel workbooks can feel like herding cats at times. “Sales_2023” vs. “2023 Sales”) and the trailing blank rows make it a nightmare for automated processing. You find yourself spending hours renaming tabs and copy-pasting data to get a clean, consolidated report.
 
 **The Answer**
-**Batch_Rename_Sheets_&_Consolidate_Excel_Files** is a professional desktop utility which turns messy file collections into structured, consolidated data. It’s the glue that holds disparate source files to your master reporting structure, doing the tedious “prep work” that usually eats up your morning.
+**Batch_Rename_Sheets_Consolidate_Excel_Files** is a professional desktop utility which turns messy file collections into structured, consolidated data. It’s the glue that holds disparate source files to your master reporting structure, doing the tedious “prep work” that usually eats up your morning.
 
 ## Important Features
 **Smart Sheet Renaming:** The tool implements advanced fuzzy logic (`rapidfuzz`) to search and rename sheets using a master template. It knows that "Mktg_Data" probably means "Marketing Data" , and prevents you from correcting it yourself .
@@ -36,7 +36,7 @@ This is not just a script but a workflow accelerator for data analysts and proje
 ### How to use
 1. Start the app:
    ```bash
-   python Batch_Rename_Sheets_&_Consolidate_Excel_Files.py
+   python Batch_Rename_Sheets_Consolidate_Excel_Files.py
    ```
 2. **Choose Master Excel:** Choose the template file that contains the correct sheet names and headers.
 3. **Choose Folder**: Select the folder that contains the files you wish to process.
